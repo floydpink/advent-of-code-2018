@@ -7,7 +7,7 @@ const frequencyChanges = fs.readFileSync('input.txt')
 
 console.log(`frequencyChanges count: ${frequencyChanges.length}`);
 
-const resultingFrequency = frequencyChanges.reduce((p,c) => p+c);
+const resultingFrequency = frequencyChanges.reduce((p, c) => p + c);
 
 console.log(`resultingFrequency: ${resultingFrequency}`);
 
@@ -24,11 +24,11 @@ const checkForRepeatingFrequency = function (frequencyChanges, resultFrequencies
     firstFrequencyToRepeat += frequency;
 
     if (resultFrequencies.has(firstFrequencyToRepeat)) {
-      return {found: true, firstFrequencyToRepeat};
+      return {found : true, firstFrequencyToRepeat};
     }
   }
 
-  return {found: false, firstFrequencyToRepeat};
+  return {found : false, firstFrequencyToRepeat};
 };
 
 let repeatingFrequencyFound = false;
