@@ -1,0 +1,14 @@
+{
+  "name": "@floydpink/advent-of-code-2018-22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tinyqueue": "^2.0.0"
+  }
+}
